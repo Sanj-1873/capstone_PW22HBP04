@@ -1,0 +1,12 @@
+{
+    "ruleId":1,
+    "templateURI":"DevZone/Templates/ec2_template.tf",
+    "timeRule":{
+        "start":"12:00"
+    },
+    "usageRule":{
+        "minimumCPU":5,
+        "timeout":20
+    },
+    "action":"terminate"
+}

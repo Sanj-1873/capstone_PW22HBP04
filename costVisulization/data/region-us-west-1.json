@@ -1,0 +1,178 @@
+[
+    [
+        {
+            "Instance": "i-07dd56f45b38f3962",
+            "Subnet": "subnet-4ccce928",
+            "InstanceType": "t2.large",
+            "LaunchTime": "2021-06-03T09:43:24+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "arroheadgrptest-50GB"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-03e78d255b96a7b33",
+            "Subnet": "subnet-4ccce928",
+            "InstanceType": "t2.xlarge",
+            "LaunchTime": "2021-07-23T05:56:02+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "hub-test-performance"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-03c4fa1791dec25e5",
+            "Subnet": "subnet-4ccce928",
+            "InstanceType": "t2.large",
+            "LaunchTime": "2021-10-26T12:34:04+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "truenorthtest"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0be2acd6b75c6d7a5",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.small",
+            "LaunchTime": "2019-12-13T10:35:53+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lightwing"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0cde429a7a8976cb1",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.large",
+            "LaunchTime": "2021-02-25T15:28:26+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "elasticnew"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0dc3fbd58b6b5633d",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.small",
+            "LaunchTime": "2020-05-06T11:45:53+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ftp-internal"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-03e3e233a0ad72c1f",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.xlarge",
+            "LaunchTime": "2021-08-06T16:49:19+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "diveinsurance-pro"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-049a9da9d57122b84",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.xlarge",
+            "LaunchTime": "2021-11-24T04:22:05+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "arrowheadgrp-pro"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0fce5c7a099ce51dd",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.xlarge",
+            "LaunchTime": "2021-06-09T06:44:56+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "hubstaging-150gb"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-05ddb0a770068a745",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.xlarge",
+            "LaunchTime": "2021-06-14T05:28:14+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "staging3.x"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0d6efdb4f920138f7",
+            "Subnet": "subnet-08f48550",
+            "InstanceType": "t2.medium",
+            "LaunchTime": "2021-10-08T18:17:05+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "keycloak_new"
+                }
+            ]
+        }
+    ]
+]

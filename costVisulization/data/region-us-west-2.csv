@@ -1,0 +1,13 @@
+id,account_id,region,instance,subnet,instancetype,launchtime,statecode,statename,name
+1,3,us-west-2,i-08433a749412529ba,subnet-7f117718,t2.medium,2020-11-02T08:44:17+00:00,16,running,Dashboard joomla
+2,3,us-west-2,i-01186405a7e4dbd06,subnet-7f117718,t2.micro,2017-05-24T08:37:08+00:00,80,stopped,Mehul
+3,3,us-west-2,i-074a56c2fc897de28,subnet-7f117718,m4.xlarge,2021-02-17T08:53:53+00:00,16,running,Truenorth
+4,3,us-west-2,i-036fed0f5fc68c3d9,subnet-7f117718,t2.small,2018-01-24T15:16:12+00:00,80,stopped,Angularoxzion
+5,3,us-west-2,i-0ea7c437b69e8a897,subnet-7f117718,m4.xlarge,2020-12-03T05:27:56+00:00,16,running,arrowhead
+6,3,us-west-2,i-0616ca410f0859c02,subnet-7f117718,t2.small,2020-09-18T15:28:50+00:00,16,running,Windows-ARROWHEAD
+7,3,us-west-2,i-042e3c55c4fe897e6,subnet-7f117718,t2.micro,2020-07-14T10:40:52+00:00,80,stopped,Sportsscience
+8,3,us-west-2,i-03efcaae2986a378f,subnet-7f117718,t2.medium,2020-08-04T07:14:25+00:00,16,running,dashboards
+9,3,us-west-2,i-0e080b1bf16515d66,subnet-d591828d,t2.micro,2018-02-12T10:37:54+00:00,16,running,oxzionapp
+10,3,us-west-2,i-089100a36dbb4f344,subnet-7f117718,t2.small,2021-02-17T09:33:27+00:00,80,stopped,collabora
+11,3,us-west-2,i-0d417ac2865880065,subnet-7f117718,t2.medium,2021-02-26T09:36:48+00:00,80,stopped,collabora_docker
+12,3,us-west-2,i-0b39183adb9cfbb24,subnet-df1274b8,t2.medium,2021-11-26T05:15:17+00:00,16,running,keycloak_nginx

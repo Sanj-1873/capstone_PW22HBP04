@@ -1,0 +1,78 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Rule",
+    "description": "A set of rules under which a terraform template is deployed",
+    "type":"object",
+    "additionalProperties": false,
+    "properties": {
+        "ruleId":{
+            "description":"A unique identifier for a single rule which is assigned to all instances that share the same template",
+            "type":"integer",
+            "minimum": 0
+        },
+        "templateURI":{
+            "description":"A uri to a terraform (.tf) file containing templates that will be deployed for a given rule",
+            "type":"string",
+            "pattern":"^[\\w-]+\\.tf|/[\\w-]+\\.tf|(/[\\w-]+)+[\\w-]+\\.tf$"
+        },
+        "timeRule":{
+            "description":"A time-based rule for infrastructure",
+            "type":"object",
+            "additionalProperties": false,
+            "properties":{
+                "start":{
+                    "description":"The time when resources are to be automatically stopped/destroyed",
+                    "type":"string",
+                    "pattern":"^([01]\\d|2[0-3]):?([0-5]\\d)$"
+                }
+            },
+            "required":[
+                "start"
+            ]
+        },
+        "usageRule":{
+            "description":"A rule based on minimum CPU usage required for a given duration after which the resources shall be terminated",
+            "type":"object",
+            "additionalProperties": false,
+            "properties":{
+                "minimumCPU":{
+                    "description":"The minimum threshold above which an instance must run to avoid being deallocated automatically",
+                    "type":"integer",
+                    "minimum": 0,
+                    "maximum": 100
+                },
+                "timeout":{
+                    "description":"The maximum time for which an instance can remain below the minimumCPU threshold before it is deallocated in minutes",
+                    "type":"integer",
+                    "minimum": 0
+                }
+            },
+            "required":[
+                "minimumCPU",
+                "timeout"
+            ]
+        },
+        "action":{
+            "description":"Whether the instance should stop or terminate on violation of the rule.",
+            "type": "string",
+            "pattern":"stop|terminate"
+        }
+    },
+    "required": [
+        "ruleId",
+        "action",
+        "templateURI"
+    ],
+    "anyOf": [
+        {
+            "required":[
+                "timeRule"
+            ]
+        },
+        {
+            "required":[
+                "usageRule"
+            ]
+        }
+    ]
+}

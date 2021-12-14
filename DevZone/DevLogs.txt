@@ -1,0 +1,70 @@
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	resources were destroyed
+ERROR	terraform apply failed (1)
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+SUCCESS	instance was stopped
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	resources were destroyed
+ERROR	terraform apply failed (1)
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+Validating all files in 'DevZone/RuleList/Rules'
+SUCCESS	Rule 1 validated
+SUCCESS	terraform init completed
+SUCCESS	terraform apply completed

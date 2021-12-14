@@ -1,0 +1,222 @@
+[
+    [
+        {
+            "Instance": "i-08433a749412529ba",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.medium",
+            "LaunchTime": "2020-11-02T08:44:17+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Dashboard joomla"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-01186405a7e4dbd06",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2017-05-24T08:37:08+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Mehul"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-074a56c2fc897de28",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "m4.xlarge",
+            "LaunchTime": "2021-02-17T08:53:53+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Truenorth"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-036fed0f5fc68c3d9",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.small",
+            "LaunchTime": "2018-01-24T15:16:12+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Angularoxzion"
+                },
+                {
+                    "Key": "ang.oxzion.com",
+                    "Value": "ang.oxzion.com"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0ea7c437b69e8a897",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "m4.xlarge",
+            "LaunchTime": "2020-12-03T05:27:56+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "arrowhead"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0616ca410f0859c02",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.small",
+            "LaunchTime": "2020-09-18T15:28:50+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Windows-ARROWHEAD"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-042e3c55c4fe897e6",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2020-07-14T10:40:52+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Sportsscience"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-03efcaae2986a378f",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.medium",
+            "LaunchTime": "2020-08-04T07:14:25+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "dashboards"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0e080b1bf16515d66",
+            "Subnet": "subnet-d591828d",
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2018-02-12T10:37:54+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "oxzionapp"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBAutoScalingGroup"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-gmwcef5szm"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-gmwcef5szm-stack"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "oxzionapp"
+                },
+                {
+                    "Key": "aws:autoscaling:groupName",
+                    "Value": "awseb-e-gmwcef5szm-stack-AWSEBAutoScalingGroup-1B30E1ESN4UXA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-west-2:150356453157:stack/awseb-e-gmwcef5szm-stack/1d0d1620-75a5-11e7-b702-50a68a0e32f2"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-089100a36dbb4f344",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.small",
+            "LaunchTime": "2021-02-17T09:33:27+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "collabora"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0d417ac2865880065",
+            "Subnet": "subnet-7f117718",
+            "InstanceType": "t2.medium",
+            "LaunchTime": "2021-02-26T09:36:48+00:00",
+            "StateCode": 80,
+            "StateName": "stopped",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "collabora_docker"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "Instance": "i-0b39183adb9cfbb24",
+            "Subnet": "subnet-df1274b8",
+            "InstanceType": "t2.medium",
+            "LaunchTime": "2021-11-26T05:15:17+00:00",
+            "StateCode": 16,
+            "StateName": "running",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "keycloak_nginx"
+                }
+            ]
+        }
+    ]
+]

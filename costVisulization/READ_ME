@@ -1,0 +1,11 @@
+Creates visuals about the resources currently deployed on the cloud. 
+1. Extracts infromation from AWS 
+2. Passed through our data analyser 
+3. Depects views on our frontend.  
+
+
+1. Extracting data from AWS 
+--> chmod u+x ec2Info.sh
+--> ./ec2Info
+Generates information regarding the current state all ec2 instances. 
+This can be used to create regional and global views for these instances
